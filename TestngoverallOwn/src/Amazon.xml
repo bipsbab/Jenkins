@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon" parallel="tests" thread-count="5">
+<test name ="Sprint_02-Chrome">
+<parameter name="Browsers" value="Chrome"></parameter>
+<parameter name="Urls" value= "https:www.amazon.com"></parameter>
+<classes>
+<class name="Amazon.Amazonown"></class>
+
+</classes>
+</test>
+
+<test name ="Sprint_02-Edge">
+<parameter name="Browsers" value="Edge"></parameter>
+<parameter name="Urls" value= "https:www.amazon.com"></parameter>
+<classes>
+<class name="Amazon.Amazonown"></class>
+
+</classes>
+</test>
+
+
+
+
+</suite>

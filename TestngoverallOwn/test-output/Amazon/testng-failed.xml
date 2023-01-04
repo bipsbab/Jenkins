@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Sprint_02-Chrome(failed)">
+    <parameter name="Browsers" value="Chrome"/>
+    <parameter name="Urls" value="https:www.amazon.com"/>
+    <classes>
+      <class name="Amazon.Amazonown">
+        <methods>
+          <include name="f"/>
+          <include name="Screenshotss"/>
+          <include name="Mbrowser"/>
+        </methods>
+      </class> <!-- Amazon.Amazonown -->
+    </classes>
+  </test> <!-- Sprint_02-Chrome(failed) -->
+  <test thread-count="5" parallel="tests" name="Sprint_02-Edge(failed)">
+    <parameter name="Browsers" value="Edge"/>
+    <parameter name="Urls" value="https:www.amazon.com"/>
+    <classes>
+      <class name="Amazon.Amazonown">
+        <methods>
+          <include name="f"/>
+          <include name="Screenshotss"/>
+          <include name="Mbrowser"/>
+        </methods>
+      </class> <!-- Amazon.Amazonown -->
+    </classes>
+  </test> <!-- Sprint_02-Edge(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
