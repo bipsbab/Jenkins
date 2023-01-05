@@ -12,7 +12,7 @@ public class Amazon_homepage {
 	
 	public void search_click () {
 		search_button.click();
-		search_button.sendKeys("computer");
+	//	search_button.sendKeys("computer");
 	}
 		
 	public void enter_click() {
